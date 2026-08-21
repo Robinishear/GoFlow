@@ -13,13 +13,26 @@ func main() {
 
 	// }
 
-	// tagged switch statement
-	switch day {
-	case "sunday":
+	// // tagged switch statement
+	// switch day {
+	// case "sunday":
+	// 	fmt.Println("Today is sunday")
+	// case "friday":
+	// 	fmt.Println("Today is friday ")
+	// case "weekend":
+	// 	fmt.Println("Today is weekend")
+
+	// default:
+	// 	fmt.Println("Today is Not sunday")
+	// }
+
+	// switch statement
+	switch {
+	case day == "sunday":
 		fmt.Println("Today is sunday")
-	case "friday":
+	case day == "friday":
 		fmt.Println("Today is friday ")
-	case "weekend":
+	case day == "weekend":
 		fmt.Println("Today is weekend")
 
 	default:
