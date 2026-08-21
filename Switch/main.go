@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	day := "weekend"
+	day := "sunday"
 
 	// if day == "sunday" {
 	// 	fmt.Println("Today is sunday")
@@ -13,6 +13,7 @@ func main() {
 
 	// }
 
+	// tagged switch statement
 	switch day {
 	case "sunday":
 		fmt.Println("Today is sunday")
@@ -21,6 +22,8 @@ func main() {
 	case "weekend":
 		fmt.Println("Today is weekend")
 
+	default:
+		fmt.Println("Today is Not sunday")
 	}
 
 }
