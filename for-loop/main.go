@@ -9,17 +9,35 @@ func makeCoffee(x int) {
 func main() {
 
 	// for i := 0; i <= 10; i++ {   // for initialization; condition; increment/decrement
-	// 	// fmt.Println(i)
 	// 	makeCoffee(i)
 	// }
 
 	// while styled loop
 
-	i := 1
+	// i := 1
 
-	for i <= 5 {
+	// for i <= 5 {
+	// 	makeCoffee(i)
+	// 	i++
+	// }
+
+	// for i := 0; i <= 10; i++ {
+	// 	makeCoffee(i)
+
+	// 	if i == 6 {
+	// 		break
+	// 	}
+	// }
+
+	for i := 0; i <= 10; i++ {
+
+		if i%2 != 0 {
+			continue
+		}
 		makeCoffee(i)
+
 	}
+
 }
 
 // i := 1, true, run the body, increment
