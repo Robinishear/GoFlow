@@ -8,27 +8,31 @@ func makeCoffee(x int) {
 
 func main() {
 
-	// for i := 0; i <= 10; i++ {   // for initialization; condition; increment/decrement
-	// 	makeCoffee(i)
-	// }
+	for i := 0; i <= 10; i++ {   // for initialization; condition; increment/decrement
+		makeCoffee(i)
+	}
 
 	// while styled loop
 
-	// i := 1
+	i := 1
 
-	// for i <= 5 {
-	// 	makeCoffee(i)
-	// 	i++
-	// }
+	for i <= 5 {
+		makeCoffee(i)
+		i++
+	}
 
-	// for i := 0; i <= 10; i++ {
-	// 	makeCoffee(i)
 
-	// 	if i == 6 {
-	// 		break
-	// 	}
-	// }
+	// break statement
+	for i := 0; i <= 10; i++ {
+		makeCoffee(i)
 
+		if i == 6 {
+			break
+		}
+	}
+
+
+	// print only even number
 	for i := 0; i <= 10; i++ {
 
 		if i%2 != 0 {

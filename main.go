@@ -2,31 +2,31 @@ package main
 
 // import "fmt"
 
-// import "fmt"
+import "fmt"
 
 func main() {
 
 	// Ananymous Function
 
-	// coffeeOrder := func() {
-	// 	fmt.Println("Coffee order placed")
-	// }
-	// coffeeOrder()
+	coffeeOrder := func() {
+		fmt.Println("Coffee order placed")
+	}
+	coffeeOrder()
 
 	// Immediately Invoked Function Expression (IIFE)
-	// func(CoffeeType string) {
-	// 	fmt.Printf("Coffee order placed  %s.........", CoffeeType)
+	func(CoffeeType string) {
+		fmt.Printf("Coffee order placed  %s.........", CoffeeType)
 
-	// }("Latte")
+	}("Latte")
 
 	//
 
-	// mackCoffee := func() {
-	// 	Coffee := "Black Coffee"
-	// 	price := "150"
+	mackCoffee := func() {
+		Coffee := "Black Coffee"
+		price := "150"
 
-	// 	fmt.Printf("Mack Coffee Price %s TK %s", Coffee, price)
-	// }
-	// mackCoffee()
+		fmt.Printf("Mack Coffee Price %s TK %s", Coffee, price)
+	}
+	mackCoffee()
 
 }
