@@ -12,13 +12,14 @@ func main() {
 	numbers[3] = 40
 	numbers[4] = 50
 
-	// fmt.Println(numbers)
+	fmt.Println(numbers)
 
 	// get array length
-	// fmt.Println("Length", len(numbers))
+	fmt.Println("Length", len(numbers))
 
-	// fmt.Println("Index is: ", numbers[4], "Type is: ", numbers[3])\
+	fmt.Println("Index is: ", numbers[4], "Type is: ", numbers[3])
 
+	// iterate array
 	for i := 0; i < len(numbers); i++ {
 		fmt.Println("Index is: ", i, "Value is: ", numbers[i])
 	}
