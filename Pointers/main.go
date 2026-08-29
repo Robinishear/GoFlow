@@ -18,6 +18,7 @@ import "fmt"
 // 	fmt.Println("p:", *p)
 // }
 
+// Pointers → Pass by reference
 func change(x *int) {
 	*x = 100
 }
