@@ -35,6 +35,7 @@ func main() {
 	// 		website: "example.com"}}
 	// fmt.Printf("%+v", jon)
 
+	// anonymous function that creates a user
 	newUser := func(name string, age int, role string) user {
 		return user{
 			name: name,
